@@ -1,0 +1,12 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cu118
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn[stats]
+scikit-learn
+scipy
+statsmodels
+xgboost
+nbformat
