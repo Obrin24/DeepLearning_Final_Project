@@ -1,15 +1,38 @@
-{
-    "epoch-count": 10,
-    "model-architecture": "CNN",
-    "cnn-model-hyperparameters": {
-        "kernel_size": 5,
-        "conv_out_features_1": 32,
-        "conv_out_features_2": 64,
-        "pooling_size": 2,
-        "linear_size_1": 512,
-        "linear_size_2": 128
+[
+    {
+        "epoch-count": 10,
+        "model-architecture": "CNN",
+        "cnn-model-hyperparameters": {
+            "kernel_size": 5,
+            "conv_out_features_1": 32,
+            "conv_out_features_2": 64,
+            "pooling_size": 2,
+            "linear_size_1": 512,
+            "linear_size_2": 128
+        },
+        "loss-function": "cross-entropy",
+        "optimizer": "adam",
+        "optimizer-lr": 0.001
     },
-    "loss-function": "cross-entropy",
-    "optimizer": "adam",
-    "optimizer-lr": 0.001
-}
+    {
+        "epoch-count": 20,
+        "model-architecture": "ResNet",
+        "resnet-model-hyperparameters": {
+            "num_classes": 4,
+            "layers": [2, 2, 2, 2]
+        },
+        "loss-function": "cross-entropy",
+        "optimizer": "adam",
+        "optimizer-lr": 0.0001
+    },
+    {
+        "epoch-count": 20,
+        "model-architecture": "AlexNet",
+        "alexnet-model-hyperparameters": {
+            "num_classes": 4
+        },
+        "loss-function": "cross-entropy",
+        "optimizer": "adam",
+        "optimizer-lr": 0.0001
+    }
+]
