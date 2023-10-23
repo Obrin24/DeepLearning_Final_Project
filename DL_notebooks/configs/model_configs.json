@@ -1,0 +1,15 @@
+{
+    "epoch-count": 10,
+    "model-architecture": "CNN",
+    "cnn-model-hyperparameters": {
+        "kernel_size": 5,
+        "conv_out_features_1": 32,
+        "conv_out_features_2": 64,
+        "pooling_size": 2,
+        "linear_size_1": 512,
+        "linear_size_2": 128
+    },
+    "loss-function": "cross-entropy",
+    "optimizer": "adam",
+    "optimizer-lr": 0.001
+}
