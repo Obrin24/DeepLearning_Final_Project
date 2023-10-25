@@ -1,8 +1,9 @@
-[
-    {
+{
+    "current-model": "CNN",
+
+    "CNN": {
         "epoch-count": 10,
-        "model-architecture": "CNN",
-        "cnn-model-hyperparameters": {
+        "model-hyperparameters": {
             "kernel_size": 5,
             "conv_out_features_1": 32,
             "conv_out_features_2": 64,
@@ -14,36 +15,32 @@
         "optimizer": "adam",
         "optimizer-lr": 0.001
     },
-    {
+
+    "ResNet": {
         "epoch-count": 20,
-        "model-architecture": "ResNet",
-        "resnet-model-hyperparameters": {
-            "num_classes": 4,
+        "model-hyperparameters": {
             "layers": [2, 2, 2, 2]
         },
         "loss-function": "cross-entropy",
         "optimizer": "adam",
         "optimizer-lr": 0.0001
     },
-    {
+
+    "ResNet2": {
         "epoch-count": 30,
-        "model-architecture": "ResNet2",
-        "resnet2-model-hyperparameters": {
-            "num_classes": 4
+        "model-hyperparameters": {
         },
         "loss-function": "cross-entropy",
         "optimizer": "adamW",
         "optimizer-lr": 0.00001
     },
-    {
+
+    "AlexNet": {
         "epoch-count": 20,
-        "model-architecture": "AlexNet",
-        "alexnet-model-hyperparameters": {
-            "num_classes": 4
+        "model-hyperparameters": {
         },
         "loss-function": "cross-entropy",
         "optimizer": "adam",
         "optimizer-lr": 0.0001
     }
-   
-]
+}
