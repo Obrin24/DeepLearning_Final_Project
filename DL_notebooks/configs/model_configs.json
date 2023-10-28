@@ -1,6 +1,5 @@
 {
-    "current-model": "CNN",
-
+    "current-model": "ResNet",
     "CNN": {
         "epoch-count": 10,
         "model-hyperparameters": {
@@ -15,30 +14,30 @@
         "optimizer": "adam",
         "optimizer-lr": 0.001
     },
-
     "ResNet": {
         "epoch-count": 20,
         "model-hyperparameters": {
-            "layers": [2, 2, 2, 2]
+            "layers": [
+                2,
+                2,
+                2,
+                2
+            ]
         },
         "loss-function": "cross-entropy",
         "optimizer": "adam",
         "optimizer-lr": 0.0001
     },
-
     "ResNet2": {
         "epoch-count": 30,
-        "model-hyperparameters": {
-        },
+        "model-hyperparameters": {},
         "loss-function": "cross-entropy",
         "optimizer": "adamW",
-        "optimizer-lr": 0.00001
+        "optimizer-lr": 1e-05
     },
-
     "AlexNet": {
         "epoch-count": 20,
-        "model-hyperparameters": {
-        },
+        "model-hyperparameters": {},
         "loss-function": "cross-entropy",
         "optimizer": "adam",
         "optimizer-lr": 0.0001
