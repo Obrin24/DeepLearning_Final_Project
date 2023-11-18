@@ -1,5 +1,5 @@
 {
-    "current-model": "CNN",
+    "current-model": "ResNet2",
     "CNN": {
         "epoch-count": 10,
         "model-hyperparameters": {
