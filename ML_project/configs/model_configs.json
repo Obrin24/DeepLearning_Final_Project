@@ -1,0 +1,45 @@
+{
+    "current-model": "AlexNet",
+    "CNN": {
+        "epoch-count": 10,
+        "model-hyperparameters": {
+            "kernel_size": 5,
+            "conv_out_features_1": 32,
+            "conv_out_features_2": 64,
+            "pooling_size": 2,
+            "linear_size_1": 512,
+            "linear_size_2": 128
+        },
+        "loss-function": "cross-entropy",
+        "optimizer": "adam",
+        "optimizer-lr": 0.001
+    },
+    "ResNet": {
+        "epoch-count": 12,
+        "model-hyperparameters": {
+            "layers": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        "loss-function": "cross-entropy",
+        "optimizer": "adam",
+        "optimizer-lr": 0.0001
+    },
+    "ResNet-Pre": {
+        "epoch-count": 10,
+        "model-hyperparameters": {},
+        "loss-function": "cross-entropy",
+        "optimizer": "adamW",
+        "optimizer-lr": 1e-05
+    },
+    "AlexNet": {
+        "epoch-count": 25,
+        "model-hyperparameters": {},
+        "loss-function": "cross-entropy",
+        "optimizer": "adam",
+        "optimizer-lr": 0.0001
+    }
+}
