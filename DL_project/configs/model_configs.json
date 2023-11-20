@@ -1,5 +1,5 @@
 {
-    "current-model": "AlexNet",
+    "current-model": "ResNet-Pre",
     "CNN": {
         "epoch-count": 10,
         "model-hyperparameters": {
