@@ -10,3 +10,5 @@ scipy
 statsmodels
 xgboost
 nbformat
+plotly
+umap
